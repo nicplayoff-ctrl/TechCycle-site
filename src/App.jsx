@@ -268,7 +268,9 @@ export default function TechCycleLandingPage() {
               TechCycle
             </h1>
             <p className="mt-6 text-2xl font-bold text-zinc-100 drop-shadow-[0_0_12px_rgba(255,255,255,.55)] md:text-4xl">
-              Tecnologia <span className="mx-4 text-cyan-400">⚡</span> Performance <span className="mx-4 text-cyan-400">⚡</span> Liberdade
+              <span className="whitespace-nowrap text-[18px] sm:text-2xl md:text-4xl">
+  Tecnologia <span className="mx-2 text-cyan-400">•</span> Performance <span className="mx-2 text-cyan-400">•</span> Liberdade
+</span>
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-5 sm:flex-row">
               <ButtonLink href="#produtos">
